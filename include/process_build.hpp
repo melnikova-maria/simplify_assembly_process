@@ -1,7 +1,7 @@
 // Copyright 2021 Melnikova Maria dandelion.m@mail.ru
 
-#ifndef INCLUDE_PROCESS_BUILDER_HPP_
-#define INCLUDE_PROCESS_BUILDER_HPP_
+#ifndef INCLUDE_PROCESS_BUILD_HPP_
+#define INCLUDE_PROCESS_BUILD_HPP_
 #include <iostream>
 #include <string>
 
@@ -23,5 +23,5 @@ class process
  private:
   boost::process::child new_child;
 };
-#endif // INCLUDE_PROCESS_BUILDER_HPP_
+#endif // INCLUDE_PROCESS_BUILD_HPP_
 
