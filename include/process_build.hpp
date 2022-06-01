@@ -6,7 +6,7 @@
 #include <string>
 
 #include <thread>
-#include <async++.h>
+#include <Async++.h>
 #include <boost/process.hpp>
 #include <boost/program_options.hpp>
 
