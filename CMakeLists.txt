@@ -42,11 +42,11 @@ find_package(Async++ CONFIG REQUIRED)
 add_library(${PROJECT_NAME} STATIC
   # enum your files and delete this comment
 
-        sources/example.cpp)
+        sources/process_build.cpp)
 
 add_executable(demo
   ${CMAKE_CURRENT_SOURCE_DIR}/demo/main.cpp
-        include/process_build.hpp sources/process_builder.cpp)
+        include/process_build.hpp sources/process_build.cpp)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
   "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
